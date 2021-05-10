@@ -1,0 +1,292 @@
+@CHARSET "UTF-8";
+
+body
+{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	overflow-y: scroll;
+	font-size: 1em;
+	font-family: Verdana, Helvetica, sans-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 8px;
+}
+
+#c_cp
+{
+	text-align: center;
+}
+
+#c_ga,#c_dr,#c_tw,#c_os
+{
+	display: none;
+}
+
+.divider
+{
+	height: 1px;
+	width: 720px;
+	background-color: #fff;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content,#playerarea
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	max-width: 720px;
+	text-align: left;
+}
+
+.rightimage
+{
+	float: right;
+	text-align: right;
+}
+
+.leftimage
+{
+	float: left;
+}
+
+
+.important
+{
+	font-weight: bold;
+}
+
+.menu img
+{
+	border: 2px solid white;
+	margin-right: 2px;
+	margin-left: 2px;
+	width: 135px;
+	height: 85px;
+}
+
+h1
+{
+	font-size: 2em;
+	font-style:normal;
+	font-weight: normal;
+	font-family: 'Lucida Handwriting', Verdana, Helvetica, sans-serif;
+}
+
+h1.zhpara {
+	font-size: 2.5em;
+
+}
+
+h2
+{
+	font-size: 1.5em;
+	font-style:normal;
+	font-weight: normal;
+	font-family: 'Lucida Handwriting', Verdana, Helvetica, sans-serif;
+}
+
+h2.zhpara {
+	font-size: 2em;
+}
+
+p.zhpara, div.zhdpara {
+	font-size: 1.3em;
+}
+
+.zhpara, .enpara
+{
+	display: none;
+}
+
+#player
+{
+	display:block;
+	width:720px;
+	height:480px;
+	background-image:url(/images/main_prev.jpg)
+}
+
+#playerarea
+{
+	display: block;
+	position: relative;
+	top: 0px;
+}
+
+.langtabs
+{
+	position: fixed;
+	top: 8px;
+	right: -25px;
+	width: 25px;
+}
+
+.langtab
+{
+	display: block;
+	position: relative;
+	width: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+a.langtab
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.langtab img
+{
+	border: 0px;
+	opacity: 0.5;
+}
+
+#no img
+{
+	opacity: 1;
+}
+
+.firstletter {
+	display: block;
+	float: left;
+	font-size: 200%;
+	font-family: 'Lucida Handwriting', Verdana, Helvetica, sans-serif;
+	margin-right: 0.2em;
+	margin-bottom: -0.5em;
+}
+
+.creditsheader {
+	color: #fff;
+	font-family: 'Lucida Handwriting', Verdana, Helvetica, sans-serif;
+	/*margin-top: -1.3em;*/
+	font-size: 75%;
+}
+
+.creditsheader a {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+.creditsheader a:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+.credits {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.creditscontents {
+	overflow: auto;
+	width: 100%;
+	background-color: #000;
+	height: 100%;
+}
+
+.creditsinfo {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1em;
+	height: 100%;
+	overflow: auto;
+}
+
+.creditsinfo img
+{
+	border: 2px solid #fff;
+}
+
+.creditsinfo a
+{
+	color: #4599ff;
+}
+
+.credintsinfo table
+{
+	border: 0px;
+	margin: 0px;
+}
+
+.creditsinfo td
+{
+	padding-right: 1em;
+	padding-left: 0px;
+	padding-bottom: 1em;
+}
+
+#credits_close
+{
+	display: block;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	opacity: 0.5;
+	/*
+	float: right;
+	padding: 1em;
+	*/
+}
+
+#credits_close img
+{
+	border: 0px;
+}
+
+#credits_close:hover
+{
+	opacity: 1;
+}
+
+@media (max-width: 719px) {
+	#menutabs {
+		width: 100%;
+	}
+
+	#menutabs img {
+		width: 17%;
+		height: auto;
+	}
+
+	body {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.langtabs {
+		position: static;
+		width: 100%;
+		text-align: right;
+		padding-bottom: 5px;
+	}
+
+	.langtab {
+		display: inline;
+		position: static;
+		padding: 5px;
+	}
+
+	img.rightimage, .rightimage img {
+		max-width: 40%;
+		height: auto;
+	}
+
+	.creditsinfo {
+		width: 100%;
+	}
+
+	.creditsinfo table, .creditsinfo td, .creditsinfo tr {
+		display: block;
+	}
+}
