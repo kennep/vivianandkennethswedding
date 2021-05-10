@@ -52,7 +52,7 @@ async function handleEvent(event) {
     response.headers.set("Referrer-Policy", "no-referrer");
     response.headers.set("Feature-Policy", "none");
     response.headers.set("X-Permitted-Cross-Domain-Policies", "none");
-    response.headers.set("Content-Security-Policy", "default-src 'none'; script-src 'self'; font-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self'; media-src public-media.wangpedersen.com; style-src 'self' 'unsafe-inline';base-uri 'self';form-action 'self'");
+    response.headers.set("Content-Security-Policy", "default-src 'none'; script-src 'self'; font-src data:; connect-src 'self'; img-src 'self'; media-src public-media.wangpedersen.com; style-src 'self' 'unsafe-inline';base-uri 'self';form-action 'self'");
 
     return response;
 
