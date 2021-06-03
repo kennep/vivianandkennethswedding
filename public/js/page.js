@@ -135,7 +135,15 @@ $(document).ready(function() {
 
 	$(".menu").click(menu_click);
 
-	no();
+	if(window.location.hash == '#en') {
+		en();
+	}
+	else if(window.location.hash == '#zh') {
+		zh();
+	} else {
+		no();
+	}
+
 	$("#zh").click(zh);
 	$("#no").click(no);
 	$("#en").click(en);

@@ -27,6 +27,7 @@ body
 {
 	height: 1px;
 	width: 720px;
+	max-width: 100%;
 	background-color: #fff;
 	margin-top: 0px;
 	margin-bottom: 5px;
@@ -290,3 +291,16 @@ a.langtab
 		display: block;
 	}
 }
+
+a, a:visited {
+	color: #fff;
+	opacity: 0.5;
+	text-decoration: none
+}
+
+a:hover {
+	color: #fff;
+	opacity: 1;
+	text-decoration: underline;
+}
+
