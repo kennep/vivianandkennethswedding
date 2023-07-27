@@ -17,7 +17,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           wranglerVersion: 3.4.0
-          preCommands: npm install
+          preCommands: (cd workers-site && npm install)
           command: deploy
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
