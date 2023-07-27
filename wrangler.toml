@@ -1,9 +1,6 @@
+compatibility_date = "2023-07-24"
 name = "vivivanandkennethswedding"
-type = 'webpack'
-account_id = ''
 routes = ['bryllup.wangpedersen.com/*', 'wedding.wangpedersen.com/*']
-zone_id = ''
-usage_model = ''
 workers_dev = true
-target_type = "webpack"
-site = {bucket = "public",entry-point = "workers-site"}
+site = {bucket = "public"}
+main = "workers-site/index.js"
