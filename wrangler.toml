@@ -1,6 +1,0 @@
-compatibility_date = "2023-07-24"
-name = "vivivanandkennethswedding"
-routes = ['bryllup.wangpedersen.com/*', 'wedding.wangpedersen.com/*']
-workers_dev = true
-site = {bucket = "public"}
-main = "workers-site/index.js"
