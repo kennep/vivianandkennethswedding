@@ -170,6 +170,7 @@ a.langtab
 	font-family: 'Lucida Handwriting', Verdana, Helvetica, sans-serif;
 	/*margin-top: -1.3em;*/
 	font-size: 75%;
+	clear: both;
 }
 
 .creditsheader a {
@@ -303,4 +304,3 @@ a:hover {
 	opacity: 1;
 	text-decoration: underline;
 }
-
